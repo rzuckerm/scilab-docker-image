@@ -1,3 +1,0 @@
-#!/bin/bash
-set -o pipefail
-scilab-cli -args -nb -quit -f "$@" | sed -r '1d;s/^\s+"(.*)"$/\1/'

@@ -1,1 +1,1 @@
-disp('Hello, world!')
+mprintf('%s', 'Hello, world!')

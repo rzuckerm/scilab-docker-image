@@ -1,5 +1,5 @@
 SCILAB_VERSION := $(shell cat SCILAB_VERSION)
-SCILAB_DEPS := $(wildcard SCILAB_*) run-scilab
+SCILAB_DEPS := $(wildcard SCILAB_*)
 DOCKER_TAG_PREFIX := rzuckerm/scilab:$(SCILAB_VERSION)
 DOCKER_TAG_SUFFIX ?= -dev
 
